@@ -1,3 +1,6 @@
+document.body.addEventListener('touchmove', (e)=> {
+  e.preventDefault()
+}, { passive: false })
 let canvas = document.getElementById("canvas");
 canvas.width = document.documentElement.clientWidth;
 canvas.height = document.documentElement.clientHeight;
